@@ -32,7 +32,7 @@ namespace AIF.TERMINAL.Forms
         public float initialFontSize;
         //font end
 
-        public static string exeVersion = "1.0.0.43";
+        public static string exeVersion = "1.0.0.44";
         public static string mKodValue = System.Configuration.ConfigurationManager.AppSettings["MusteriKodu"];
         public static string value = "";
 

@@ -207,7 +207,9 @@
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Activities" />
     <Reference Include="System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.dll</HintPath>
@@ -818,7 +820,7 @@
     <None Include="Connected Services\AIFTerminalService\AIF.TERMINAL.AIFTerminalService.Response.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\AIFTerminalService\AIFTerminalService1.wsdl" />
+    <None Include="Connected Services\AIFTerminalService\AIFTerminalService.wsdl" />
     <None Include="Files\Ant_105_70_mm_1.rpt" />
     <None Include="Files\Ant_105_70_mm_2.rpt" />
     <None Include="Files\Plt_105_70_mm_1.rpt" />
@@ -882,7 +884,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Connected Services\AIFTerminalService\AIFTerminalService1.disco" />
+    <None Include="Connected Services\AIFTerminalService\AIFTerminalService.disco" />
     <Content Include="Images\aif_icon.ico" />
     <Content Include="Images\disli_72x74.png" />
     <Content Include="Images\rulman_80x74.jpg" />

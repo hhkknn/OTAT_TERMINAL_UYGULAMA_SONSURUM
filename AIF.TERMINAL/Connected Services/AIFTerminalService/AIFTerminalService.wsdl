@@ -4411,10 +4411,10 @@
   </wsdl:binding>
   <wsdl:service name="AIFTerminalService">
     <wsdl:port name="AIFTerminalServiceSoap" binding="tns:AIFTerminalServiceSoap">
-      <soap:address location="http://172.55.10.20:3091/AIFTerminalService.asmx" />
+      <soap:address location="http://172.55.10.20:3092/AIFTerminalService.asmx" />
     </wsdl:port>
     <wsdl:port name="AIFTerminalServiceSoap12" binding="tns:AIFTerminalServiceSoap12">
-      <soap12:address location="http://172.55.10.20:3091/AIFTerminalService.asmx" />
+      <soap12:address location="http://172.55.10.20:3092/AIFTerminalService.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

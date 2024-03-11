@@ -19,11 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://172.55.10.20:3091/AIFTerminalService.asmx" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://172.55.10.20:3092/AIFTerminalService.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="AIFTerminalService1.wsdl" MetadataType="Wsdl" ID="a60b94be-d0cd-4491-b416-cba47755d620" SourceId="1" SourceUrl="http://172.55.10.20:3091/AIFTerminalService.asmx?wsdl" />
-    <MetadataFile FileName="AIFTerminalService1.disco" MetadataType="Disco" ID="253d26dd-f0de-4094-9f51-fffaf72b9b59" SourceId="1" SourceUrl="http://172.55.10.20:3091/AIFTerminalService.asmx?disco" />
+    <MetadataFile FileName="AIFTerminalService.wsdl" MetadataType="Wsdl" ID="1430d6a1-fbf7-40dc-9eae-25a3434c8d18" SourceId="1" SourceUrl="http://172.55.10.20:3092/AIFTerminalService.asmx?wsdl" />
+    <MetadataFile FileName="AIFTerminalService.disco" MetadataType="Disco" ID="3e71864f-8156-410d-b3e1-3b3dbcc1604e" SourceId="1" SourceUrl="http://172.55.10.20:3092/AIFTerminalService.asmx?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

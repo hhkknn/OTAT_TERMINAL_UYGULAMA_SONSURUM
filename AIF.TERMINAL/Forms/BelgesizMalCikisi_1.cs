@@ -707,6 +707,8 @@ namespace AIF.TERMINAL.Forms
                 {
                     return;
                 }
+
+                string BelgeAciklama = richTextBox1.Text.ToString();
                 InventoryGenExit inventoryGenExit = new InventoryGenExit();
                 InventoryGenExitLines inventoryGenExitLines = new InventoryGenExitLines();
                 List<InventoryGenExitLines> inventoryGenExitLines1 = new List<InventoryGenExitLines>();
@@ -716,6 +718,7 @@ namespace AIF.TERMINAL.Forms
                 int i = 1;
                 int index = 0;
                 inventoryGenExit.DocDate = dtpDocDate.Value.ToString("yyyyMMdd");
+                inventoryGenExit.Comments = BelgeAciklama;
 
                 foreach (DataRow items in dtProducts.Rows)
                 {
@@ -741,6 +744,7 @@ namespace AIF.TERMINAL.Forms
                         Quantity = Math.Round(Convert.ToDouble(items["ToplananMiktar"]), Giris.genelParametreler.OndalikMiktar),
                         WareHouse = dtgProducts.Rows[index].Cells["DepoKodu"].Value.ToString(),
                         BinCode = Giris.genelParametreler.DepoYeriCalisir == "Y" ? dtgProducts.Rows[index].Cells["DepoYeriId"].Value.ToString() : "",
+                        
                     });
 
                     inventoryGenExit.InventoryGenExitLines = inventoryGenExitLines1.ToArray();

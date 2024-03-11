@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="njwINkYeERf6hWVH/D/hqrZfm9mroWVIstuduA7Q29o=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="U5kwTh+lJUo4KuEI2bJGOnI/jrfDTeb/96I14MJIM6A=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="AIFTerminalServiceSoap">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="AIFTerminalServiceSoap" contract="AIFTerminalService.AIFTerminalServiceSoap" bindingType="basicHttpBinding" address="http://172.55.10.20:3091/AIFTerminalService.asmx" bindingConfiguration="AIFTerminalServiceSoap">
+    <endpoint name="AIFTerminalServiceSoap" contract="AIFTerminalService.AIFTerminalServiceSoap" bindingType="basicHttpBinding" address="http://172.55.10.20:3092/AIFTerminalService.asmx" bindingConfiguration="AIFTerminalServiceSoap">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://172.55.10.20:3091/AIFTerminalService.asmx</serializedValue>
+          <serializedValue>http://172.55.10.20:3092/AIFTerminalService.asmx</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
